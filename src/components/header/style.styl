@@ -1,0 +1,72 @@
+.header
+    background: #ffffff
+    border-top: thick solid #0000cc
+    border-bottom: .1rem solid #ccc
+    display: block
+    height: 6rem
+    left: 0
+    max-width: 100%
+    position: fixed
+    right: 0
+    top: 0
+    width: 100%
+    z-index: 1
+  .bars
+    display: none
+	.img
+    height:3rem
+    position:relative
+    top:.3rem
+    @media screen and (max-width: 600px)
+      height:3rem
+      position:relative
+      top:.3rem
+      left: 2rem
+	.title
+    display: inline
+    font-size: 1.6rem
+    line-height: 5.2rem
+    padding: 0
+    text-decoration: none
+		color:#606c76
+    font-family: Gotham Rounded A,Gotham Rounded B,Helvetica Neue,Arial,sans-serif;
+    position: relative
+	nav
+		float: right
+		font-size: 100%
+  @media screen and (max-width: 600px)
+      display: block;
+      width: 60%
+      float: left
+      left: 0
+      top:5rem
+      position: absolute
+      background: #f4f5f6
+      border-right: .1rem solid #d1d1d1
+      border-bottom: .1rem solid #d1d1d1
+	a
+		display: inline-block
+		height: 56px
+		line-height: 56px
+		padding: 0 15px
+		min-width: 50px
+		text-align: center
+		background: rgba(255,255,255,0)
+		text-decoration: none
+		color: #000
+		will-change: background-color
+		&:hover,
+		&:active
+	  	color: rgba(0,0,0,0.2)
+		&active
+	  	color: rgba(0,0,0,0.4);
+  @media screen and (max-width: 600px)
+    min-width: 100%
+
+@media screen and (max-width: 600px)
+  .bars
+      display: block
+      width: 3rem
+      position: absolute
+      left:1rem
+      top:1rem
